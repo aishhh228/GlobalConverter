@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Global Converter</string>
+    <string name="money">Money</string>
+    <string name="temperature">Temperature</string>
+    <string name="weight">Weight</string>
+    <string name="distance">Distance</string>
+    <string name="scale">Scale</string>
+    <string name="pressure">Pressure</string>
+    <string name="button">button</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="miles">Miles</string>
+    <string name="km1">km</string>
+    <string name="miles1">miles</string>
+    <string name="number1">tools:ignore="DuplicateDefinition">number</string>
+    <string name="number" tools:ignore="DuplicateDefinition">number</string>
+    <string name="usa">USA</string>
+    <string name="Dollar">hint</string>
+    <string name="australia">australia</string>
+    <string name="china">china</string>
+    <string name="canda">canada</string>
+    <string name="england">england</string>
+    <string name="germany">germany</string>
+    <string name="india">india</string>
+    <string name="japan">japan</string>
+    <string name="hello_there">Hello There!!!</string>
+    <string name="dollar">Dollar</string>
+    <string name="textView">TextView</string>
+    <string name="textview">TextView</string>
+    <string name="usanumber">Number</string>
+    <string name="canadaNumber">canada</string>
+    <string name="canada">Number</string>
+    <string name="India">Number</string>
+    <string name="australia1">number</string>
+    <string name="chinanum">Number</string>
+    <string name="indianum">Number</string>
+    <string name="japannum">Number</string>
+    <string name="usernum">Number</string>
+    <string name="uk">uk</string>
+    <string name="germanynumber">germany</string>
+    <string name="englandnumber">england</string>
+    <string name="uknumber">uk</string>
+    <string name="Number">Number</string> n
+    <string name="select">Select:</string>
+    <string name="select1">Select:</string>
+    <string name="wallet">wallet</string>
+    <string name="numbernew">number</string>
+    <string-array name="tempunits">
+        <item>celsius</item>
+        <item>fahrenheit</item>
+        <item>kelvin</item>
+    </string-array>
+    <string-array name="distanceunits">
+        <item>kilometer</item>
+        <item>meter</item>
+        <item>centimeter</item>
+    </string-array>
+    <string-array name="pressureunits">
+        <item>bar</item>
+        <item>pascal</item>
+    </string-array>
+    <string-array name="weighteunits">
+        <item>kilogram</item>
+        <item>gram</item>
+        <item>pound</item>
+        <item>ounce</item>
+    </string-array>
+
+
+
+
+</resources>

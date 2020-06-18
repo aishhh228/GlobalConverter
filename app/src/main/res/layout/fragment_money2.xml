@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/money"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="#B39DDB"
+    android:longClickable="false"
+    android:persistentDrawingCache="animation"
+    tools:actionBarNavMode="standard">
+
+    <androidx.gridlayout.widget.GridLayout
+
+        android:layout_width="374dp"
+        android:layout_height="482dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        app:columnCount="4"
+        app:rowCount="6"
+        tools:context=".MoneyFragment">
+
+        <ImageView
+            android:id="@+id/australia"
+            android:layout_width="60dp"
+            android:layout_height="78dp"
+            android:columnCount="4"
+            android:contentDescription="@string/australia"
+            android:rowCount="4"
+            android:src="@drawable/australia"
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/usa"
+            android:layout_width="53dp"
+            android:layout_height="78dp"
+            android:columnCount="4"
+            android:contentDescription="@string/usa"
+            android:rowCount="4"
+            android:src="@drawable/flag"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/china"
+            android:layout_width="53dp"
+            android:layout_height="78dp"
+            android:columnCount="4"
+            android:contentDescription="@string/china"
+            android:rowCount="4"
+            android:src="@drawable/china"
+            app:layout_column="0"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/japan"
+            android:layout_width="53dp"
+            android:layout_height="78dp"
+            android:columnCount="4"
+            android:contentDescription="@string/japan"
+            android:rowCount="4"
+            android:src="@drawable/japan"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/india"
+            android:layout_width="53dp"
+            android:layout_height="78dp"
+            android:columnCount="4"
+            android:contentDescription="@string/india"
+            android:rowCount="4"
+            android:src="@drawable/india"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/canada"
+            android:layout_width="53dp"
+            android:layout_height="78dp"
+            android:columnCount="4"
+            android:contentDescription="@string/canada"
+            android:rowCount="4"
+            android:src="@drawable/canada"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/germany"
+            android:layout_width="53dp"
+            android:layout_height="78dp"
+            android:columnCount="4"
+            android:contentDescription="@string/germany"
+            android:rowCount="4"
+            android:src="@drawable/germany"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/uk"
+            android:layout_width="53dp"
+            android:layout_height="78dp"
+            android:columnCount="4"
+            android:contentDescription="@string/uk"
+            android:rowCount="4"
+            android:src="@drawable/uk"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/england"
+            android:layout_width="53dp"
+            android:layout_height="78dp"
+            android:columnCount="4"
+            android:contentDescription="@string/england"
+            android:rowCount="4"
+            android:src="@drawable/england"
+            app:layout_column="2"
+            app:layout_row="2" />
+
+
+        <EditText
+            android:id="@+id/editusa"
+            android:layout_width="88dp"
+            android:layout_height="60dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/usanumber"
+            android:inputType="number"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <EditText
+            android:id="@+id/editcanada"
+            android:layout_width="88dp"
+            android:layout_height="56dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/Number"
+            android:inputType="number"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <EditText
+            android:id="@+id/editindia"
+            android:layout_width="88dp"
+            android:layout_height="60dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/indianum"
+            android:inputType="number"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <EditText
+            android:id="@+id/editaustralia"
+            android:layout_width="88dp"
+            android:layout_height="60dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/japannum"
+            android:inputType="number"
+            app:layout_column="1"
+            app:layout_row="3" />
+
+        <EditText
+            android:id="@+id/editchina"
+            android:layout_width="88dp"
+            android:layout_height="60dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/chinanum"
+            android:inputType="number"
+            app:layout_column="1"
+            app:layout_row="4" />
+
+        <EditText
+            android:id="@+id/editjapan"
+            android:layout_width="88dp"
+            android:layout_height="63dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/canada"
+            android:inputType="number"
+            app:layout_column="1"
+            app:layout_row="5" />
+
+        <EditText
+            android:id="@+id/editgermany"
+            android:layout_width="84dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/Number"
+            android:inputType="number"
+            app:layout_column="3"
+            app:layout_row="0" />
+
+        <EditText
+            android:id="@+id/edituk"
+            android:layout_width="88dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/Number"
+            android:inputType="number"
+            app:layout_column="3"
+            app:layout_row="1" />
+
+        <EditText
+            android:id="@+id/editengland"
+            android:layout_width="88dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/Number"
+            android:inputType="number"
+            app:layout_column="3"
+            app:layout_row="2" />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/textview" />
+
+    <EditText
+        android:id="@+id/editTextNumber13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/usernum"
+        android:inputType="number" />
+
+
+    <ImageView
+        android:id="@+id/wallet"
+        android:layout_width="55dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="510dp"
+        android:src="@drawable/wallet"
+        android:contentDescription="@string/wallet" />
+
+
+</FrameLayout>

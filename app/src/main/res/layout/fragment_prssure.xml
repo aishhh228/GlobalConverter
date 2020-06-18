@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pressure"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="#039BE5"
+    android:focusable="auto"
+    android:keepScreenOn="false"
+    android:longClickable="false"
+    tools:actionBarNavMode="standard"
+    tools:context=".pressure">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="557dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="397dp"
+            android:layout_height="154dp"
+            android:layout_marginTop="32dp"
+            android:contentDescription="@string/pressure"
+            android:src="@drawable/pressure"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.571"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pressure1" />
+
+        <TextView
+            android:id="@+id/pressure1"
+            android:layout_width="127dp"
+            android:layout_height="43dp"
+            android:text="@string/pressure"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextNumber4"
+            android:layout_width="222dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="48dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="number"
+            app:layout_constraintBottom_toTopOf="@+id/editTextNumber5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7"
+            app:layout_constraintVertical_bias="0.511" />
+
+        <EditText
+            android:id="@+id/editTextNumber5"
+            android:layout_width="217dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="48dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/number"
+            android:inputType="number"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.737" />
+
+        <Spinner
+            android:id="@+id/spweight"
+            android:layout_width="116dp"
+            android:layout_height="41dp"
+            android:dropDownWidth="match_parent"
+            android:entries="@array/pressureunits"
+            android:gravity="bottom"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.966"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.556"
+            tools:ignore="MissingConstraints" />
+
+        <Spinner
+            android:id="@+id/spweight1"
+            android:layout_width="116dp"
+            android:layout_height="41dp"
+            android:dropDownWidth="match_parent"
+            android:entries="@array/pressureunits"
+            android:gravity="bottom"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.966"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.738"
+            tools:ignore="MissingConstraints" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="20dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

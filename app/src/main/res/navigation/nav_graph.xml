@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/main">
+
+    <fragment
+        android:id="@+id/money"
+        android:name="com.example.globalconverter.money"
+        android:label="fragment_money2"
+        tools:layout="@layout/fragment_money2" >
+        <action
+            android:id="@+id/action_money_to_main"
+            app:destination="@id/main" />
+    </fragment>
+    <fragment
+        android:id="@+id/temp"
+        android:name="com.example.globalconverter.temp"
+        android:label="fragment_temp"
+        tools:layout="@layout/fragment_temp" >
+        <action
+            android:id="@+id/action_temp_pop"
+            app:destination="@id/main"
+            />
+        <action
+            android:id="@+id/action_temp_to_main"
+            app:destination="@id/main" />
+    </fragment>
+    <fragment
+        android:id="@+id/weight"
+        android:name="com.example.globalconverter.weight"
+        android:label="fragment_weight"
+        tools:layout="@layout/fragment_weight" >
+        <action
+            android:id="@+id/action_weight_pop"
+            app:destination="@id/main"
+             />
+    </fragment>
+    <fragment
+        android:id="@+id/distance"
+        android:name="com.example.globalconverter.distance"
+        android:label="fragment_distance"
+        tools:layout="@layout/fragment_distance" >
+        <action
+            android:id="@+id/action_distance_pop"
+            app:destination="@id/main" />
+    </fragment>
+    <fragment
+        android:id="@+id/scale"
+        android:name="com.example.globalconverter.scale"
+        android:label="fragment_scale"
+        tools:layout="@layout/fragment_scale" />
+    <fragment
+        android:id="@+id/prssure"
+        android:name="com.example.globalconverter.prssure"
+        android:label="fragment_prssure"
+        tools:layout="@layout/fragment_prssure" />
+    <fragment
+        android:id="@+id/main"
+        android:name="com.example.globalconverter.main"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_main_to_money"
+            app:destination="@id/money"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@anim/fragment_close_enter" />
+        <action
+            android:id="@+id/action_main_to_temp"
+            app:destination="@id/temp"
+            app:enterAnim="@android:anim/slide_in_left" />
+        <action
+            android:id="@+id/action_main_to_weight"
+            app:destination="@id/weight"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@anim/fragment_close_enter" />
+        <action
+            android:id="@+id/action_main_to_distance"
+            app:destination="@id/distance"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@anim/fragment_close_enter" />
+        <action
+            android:id="@+id/action_main_to_scale"
+            app:destination="@id/scale"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@anim/fragment_close_enter" />
+        <action
+            android:id="@+id/action_main_to_prssure"
+            app:destination="@id/prssure"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@anim/fragment_close_enter" />
+    </fragment>
+</navigation>
