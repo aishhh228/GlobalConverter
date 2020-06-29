@@ -44,6 +44,7 @@
     <string name="select1">Select:</string>
     <string name="wallet">wallet</string>
     <string name="numbernew">number</string>
+    <string name="amount">Amount</string>
     <string-array name="tempunits">
         <item>celsius</item>
         <item>fahrenheit</item>
@@ -63,6 +64,25 @@
         <item>gram</item>
         <item>pound</item>
         <item>ounce</item>
+    </string-array>
+    <string-array name="moneyunits">
+        <item>Australian dollar</item>
+        <item>Canadian dollar</item>
+        <item>Chinese Yuan Renminbi</item>
+        <item>France European euro</item>
+        <item>Germany European euro</item>
+        <item>Indian rupee</item>
+        <item>Italy European euro</item>
+        <item>Japan Japanese yen</item>
+        <item>New Zealand dollar</item>
+        <item>Russian ruble</item>
+        <item>Singapore dollar</item>
+        <item>Sri Lankan rupee</item>
+        <item>Switzerland Swiss franc</item>
+        <item>Thailand Thai baht</item>
+        <item>United Arab Emirates UAE dirham</item>
+        <item>United Kingdom Pound sterling</item>
+        <item>United States of America USD</item>
     </string-array>
 
 
