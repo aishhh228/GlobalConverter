@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:animateLayoutChanges="true"
-    android:background="#E9E8EA"
+    android:background="#FCFCFD"
     android:longClickable="false"
     android:persistentDrawingCache="animation"
     tools:actionBarNavMode="standard">
