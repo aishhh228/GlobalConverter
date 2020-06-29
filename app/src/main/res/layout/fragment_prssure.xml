@@ -77,10 +77,10 @@
             app:layout_constraintVertical_bias="0.737" />
 
         <Spinner
-            android:id="@+id/spweight"
+            android:id="@+id/sppressure"
             android:layout_width="116dp"
             android:layout_height="41dp"
-            android:dropDownWidth="match_parent"
+            android:dropDownWidth="wrap_content"
             android:entries="@array/pressureunits"
             android:gravity="bottom"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -92,10 +92,10 @@
             tools:ignore="MissingConstraints" />
 
         <Spinner
-            android:id="@+id/spweight1"
+            android:id="@+id/sppressure1"
             android:layout_width="116dp"
             android:layout_height="41dp"
-            android:dropDownWidth="match_parent"
+            android:dropDownWidth="wrap_content"
             android:entries="@array/pressureunits"
             android:gravity="bottom"
             app:layout_constraintBottom_toBottomOf="parent"
