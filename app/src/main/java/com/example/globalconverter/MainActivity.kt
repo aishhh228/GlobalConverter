@@ -1,14 +1,11 @@
 package com.example.globalconverter
 
-import android.icu.text.Transliterator
 import android.os.Bundle
-import android.view.View
-import android.widget.AdapterView
-import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.fragment_prssure.*
-import java.util.*
+import android.widget.ImageView
 
+import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.animation.AnimationUtils
+import java.lang.System.load
 
 class MainActivity  : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

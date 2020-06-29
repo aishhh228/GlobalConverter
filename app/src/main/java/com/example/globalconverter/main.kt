@@ -46,6 +46,3 @@ class main : Fragment() ,View.OnClickListener {
 
 }
 
-
-
-
